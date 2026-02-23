@@ -2,7 +2,7 @@
   "name": "Cool Makkhi",
   "symbol": "MKH",
   "description": "The official Cool Makkhi token.",
-  "uri": "https://raw.githubusercontent.com/HarmishTervadiya/solana-spl-token-demo/master/asset/metadata.json",
+  "uri": "https://res.cloudinary.com/dladliuub/raw/upload/v1771867290/metadata_sleyye.json",
   "image": "https://res.cloudinary.com/dladliuub/image/upload/v1771865705/unnamed_qolcj5.jpg",
   "seller_fee_basis_points": 0,
   "properties": {

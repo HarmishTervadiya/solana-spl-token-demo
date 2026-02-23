@@ -30,7 +30,7 @@ export const createTokenWithMetadata = async (payer: Keypair) => {
     mint: mintKeypair.publicKey,
     name: "Cool Makkhi",
     symbol: "MKH",
-    uri: "https://raw.githubusercontent.com/HarmishTervadiya/solana-spl-token-demo/master/asset/metadata.json",
+    uri: "https://res.cloudinary.com/dladliuub/raw/upload/v1771867290/metadata_sleyye.json",
     additionalMetadata: [
       ["image_url", "https://res.cloudinary.com/dladliuub/image/upload/v1771865705/unnamed_qolcj5.jpg"]
     ],
