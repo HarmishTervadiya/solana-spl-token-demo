@@ -1,7 +1,7 @@
 {
   "name": "Cool Makkhi",
   "symbol": "MKH",
-  "uri": "https://example.com/token/metadata.json",
+  "uri": "https://raw.githubusercontent.com/HarmishTervadiya/solana-spl-token-demo/master/asset/metadata.json",
   "seller_fee_basis_points": 0,
-  "image": "https://example.com/token/image.png"
+  "image": "https://github.com/HarmishTervadiya/solana-spl-token-demo/blob/master/asset/makkhi.jpg?raw=true"
 }

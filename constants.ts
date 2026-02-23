@@ -5,3 +5,5 @@ export const mintAuthority = payer;
 
 export const recipient = new PublicKey('CL9gAAiFQJ5WZZDWN82wGegVCi2WzQHpeHLebt5gGNss');
 export const mint = new PublicKey('DKbCyo85JMqJkysQzB5Ck4w7mr8nsfFG3tdHEcjTtFMX');
+
+export const metaDataToken = new PublicKey('DEFCDbwScmNqUmEMDgVtXKzPeLpkgf7FgcoETXiSwhRV')
