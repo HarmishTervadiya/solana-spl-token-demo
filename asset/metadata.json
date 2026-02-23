@@ -1,0 +1,7 @@
+{
+  "name": "Cool Makkhi",
+  "symbol": "MKH",
+  "uri": "https://example.com/token/metadata.json",
+  "seller_fee_basis_points": 0,
+  "image": "https://example.com/token/image.png"
+}
