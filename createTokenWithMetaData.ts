@@ -31,7 +31,9 @@ export const createTokenWithMetadata = async (payer: Keypair) => {
     name: "Cool Makkhi",
     symbol: "MKH",
     uri: "https://raw.githubusercontent.com/HarmishTervadiya/solana-spl-token-demo/master/asset/metadata.json",
-    additionalMetadata: [],
+    additionalMetadata: [
+      ["image_url", "https://res.cloudinary.com/dladliuub/image/upload/v1771865705/unnamed_qolcj5.jpg"]
+    ],
   };
 
   const mintLen = getMintLen([ExtensionType.MetadataPointer]);
@@ -40,8 +42,7 @@ export const createTokenWithMetadata = async (payer: Keypair) => {
     mintLen + metadataLen,
   );
   const balance = await connection.getBalance(payer.publicKey);
-  console.log(balance);
-  console.log(lamports);
+  
   const tx = new Transaction().add(
     SystemProgram.createAccount({
       fromPubkey: payer.publicKey,

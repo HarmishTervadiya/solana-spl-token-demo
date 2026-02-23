@@ -20,11 +20,11 @@ async function main() {
   // const tx = await mintToken(payer, mint, recipient, 100);
   // console.log("mint tx:", tx);
 
-  // const newTokenWithMetaData = await createTokenWithMetadata(payer)
-  // console.log(`New Token: ${newTokenWithMetaData}`)
+  const newTokenWithMetaData = await createTokenWithMetadata(payer)
+  console.log(`New Token: ${newTokenWithMetaData}`)
 
-  const tx = await mintMetadataToken(payer, metaDataToken, recipient, 100);
-  console.log("mint tx:", tx);
+  // const tx = await mintMetadataToken(payer, metaDataToken, recipient, 100);
+  // console.log("mint tx:", tx);
 }
 
 main().catch(console.error);
