@@ -32,7 +32,10 @@ export const createTokenWithMetadata = async (payer: Keypair) => {
     symbol: "MKH",
     uri: "https://res.cloudinary.com/dladliuub/raw/upload/v1771867290/metadata_sleyye.json",
     additionalMetadata: [
-      ["image_url", "https://res.cloudinary.com/dladliuub/image/upload/v1771865705/unnamed_qolcj5.jpg"]
+      [
+        "image_url",
+        "https://res.cloudinary.com/dladliuub/image/upload/v1771865705/unnamed_qolcj5.jpg",
+      ],
     ],
   };
 
@@ -42,7 +45,7 @@ export const createTokenWithMetadata = async (payer: Keypair) => {
     mintLen + metadataLen,
   );
   const balance = await connection.getBalance(payer.publicKey);
-  
+
   const tx = new Transaction().add(
     SystemProgram.createAccount({
       fromPubkey: payer.publicKey,
